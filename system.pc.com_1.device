@@ -1,0 +1,133 @@
+[    0.000000] Linux version 5.4.0-105-generic (buildd@ubuntu) (gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04)) #119~18.04.1-Ubuntu SMP Tue Mar 8 11:21:24 UTC 2022 (Ubuntu 5.4.0-105.119~18.04.1-generic 5.4.174)
+[    0.000000] Command line: earlyprintk=ttyS0 console=ttyS0 lpj=7999923 root=/dev/hda1
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Hygon HygonGenuine
+[    0.000000]   Centaur CentaurHauls
+[    0.000000]   zhaoxin   Shanghai  
+[    0.000000] x86/fpu: x87 FPU will use FXSAVE
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x0000000007ffffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000008000000-0x00000000bfffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ffff0000-0x00000000ffffffff] reserved
+[    0.000000] printk: bootconsole [earlyser0] enabled
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] SMBIOS 2.5 present.
+[    0.000000] DMI:  , BIOS  06/08/2008
+[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] tsc: Detected 2000.054 MHz processor
+[    0.000069] last_pfn = 0x8000 max_arch_pfn = 0x400000000
+[    0.000175] Disabled
+[    0.000195] x86/PAT: MTRRs disabled, skipping PAT initialization too.
+[    0.000245] CPU MTRRs all blank - virtualized system.
+[    0.000286] x86/PAT: Configuration [0-7]: WB  WT  UC- UC  WB  WT  UC- UC  
+[    0.000461] found SMP MP-table at [mem 0x000f0050-0x000f005f]
+[    0.001372] check: Scanning 1 areas for low memory corruption
+[    0.002950] ACPI: Early table checksum verification disabled
+[    0.003272] ACPI: RSDP 0x00000000000F01F0 000024 (v02 gem5  )
+[    0.003325] ACPI: XSDT 0x00000000000F0418 00002C (v01 gem5            00000000      00000000)
+[    0.003405] ACPI: APIC 0x00000000000F032A 0000EE (v04 madt            00000000      00000000)
+[    0.003483] ACPI: Reserving APIC table memory at [mem 0xf032a-0xf0417]
+[    0.004531] No NUMA configuration found
+[    0.004563] Faking a node at [mem 0x0000000000000000-0x0000000007ffffff]
+[    0.004681] NODE_DATA(0) allocated [mem 0x07fd5000-0x07ffffff]
+[    0.007348] Zone ranges:
+[    0.007370]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.007418]   DMA32    [mem 0x0000000001000000-0x0000000007ffffff]
+[    0.007467]   Normal   empty
+[    0.007492]   Device   empty
+[    0.007517] Movable zone start for each node
+[    0.007565] Early memory node ranges
+[    0.007595]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+[    0.007644]   node   0: [mem 0x0000000000100000-0x0000000007ffffff]
+[    0.007705] Zeroed struct page in unavailable ranges: 98 pages
+[    0.007712] Initmem setup node 0 [mem 0x0000000000001000-0x0000000007ffffff]
+[    0.014328] IOAPIC[0]: apic_id 4, version 20, address 0xfec00000, GSI 0-23
+[    0.014388] ACPI: INT_SRC_OVR (bus 0 bus_irq 16 global_irq 16 dfl dfl)
+[    0.014437] Invalid bus_irq 16 for legacy override
+[    0.014476] ACPI: INT_SRC_OVR (bus 1 bus_irq 0 global_irq 2 dfl dfl)
+[    0.014527] ACPI: INT_SRC_OVR (bus 1 bus_irq 1 global_irq 1 dfl dfl)
+[    0.014577] ACPI: INT_SRC_OVR (bus 1 bus_irq 3 global_irq 3 dfl dfl)
+[    0.014626] ACPI: INT_SRC_OVR (bus 1 bus_irq 4 global_irq 4 dfl dfl)
+[    0.014676] ACPI: INT_SRC_OVR (bus 1 bus_irq 5 global_irq 5 dfl dfl)
+[    0.014726] ACPI: INT_SRC_OVR (bus 1 bus_irq 6 global_irq 6 dfl dfl)
+[    0.014775] ACPI: INT_SRC_OVR (bus 1 bus_irq 7 global_irq 7 dfl dfl)
+[    0.014825] ACPI: INT_SRC_OVR (bus 1 bus_irq 8 global_irq 8 dfl dfl)
+[    0.014874] ACPI: INT_SRC_OVR (bus 1 bus_irq 9 global_irq 9 dfl dfl)
+[    0.014924] ACPI: INT_SRC_OVR (bus 1 bus_irq 10 global_irq 10 dfl dfl)
+[    0.014975] ACPI: INT_SRC_OVR (bus 1 bus_irq 11 global_irq 11 dfl dfl)
+[    0.015026] ACPI: INT_SRC_OVR (bus 1 bus_irq 12 global_irq 12 dfl dfl)
+[    0.015077] ACPI: INT_SRC_OVR (bus 1 bus_irq 13 global_irq 13 dfl dfl)
+[    0.015128] ACPI: INT_SRC_OVR (bus 1 bus_irq 14 global_irq 14 dfl dfl)
+[    0.015230] Using ACPI (MADT) for SMP configuration information
+[    0.015280] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+[    0.015358] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+[    0.015411] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+[    0.015460] PM: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+[    0.015512] [mem 0xc0000000-0xfffeffff] available for PCI devices
+[    0.015558] Booting paravirtualized kernel on bare hardware
+[    0.015608] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+[    0.015705] setup_percpu: NR_CPUS:8192 nr_cpumask_bits:4 nr_cpu_ids:4 nr_node_ids:1
+[    0.021787] percpu: Embedded 60 pages/cpu s208896 r8192 d28672 u524288
+[    0.022031] Built 1 zonelists, mobility grouping on.  Total pages: 32137
+[    0.022080] Policy zone: DMA32
+[    0.022109] Kernel command line: earlyprintk=ttyS0 console=ttyS0 lpj=7999923 root=/dev/hda1
+[    0.022680] Dentry cache hash table entries: 16384 (order: 5, 131072 bytes, linear)
+[    0.022868] Inode-cache hash table entries: 8192 (order: 4, 65536 bytes, linear)
+[    0.023055] mem auto-init: stack:off, heap alloc:on, heap free:off
+[    0.026269] Memory: 90256K/130680K available (14339K kernel code, 2382K rwdata, 9460K rodata, 2736K init, 4984K bss, 40424K reserved, 0K cma-reserved)
+[    0.026385] random: get_random_u64 called from __kmem_cache_create+0x41/0x560 with crng_init=0
+[    0.027413] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.027595] ftrace: allocating 44374 entries in 174 pages
+[    0.123304] rcu: Hierarchical RCU implementation.
+[    0.123345] rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=4.
+[    0.123395] 	Tasks RCU enabled.
+[    0.123422] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[    0.123478] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    0.152635] NR_IRQS: 524544, nr_irqs: 456, preallocated irqs: 16
+[    0.153770] Console: colour dummy device 80x25
+[    0.153850] printk: console [ttyS0] enabled
+[    0.153850] printk: console [ttyS0] enabled
+[    0.153917] printk: bootconsole [earlyser0] disabled
+[    0.153917] printk: bootconsole [earlyser0] disabled
+[    0.154053] ACPI: Core revision 20190816
+[    0.154242] APIC: Switch to symmetric I/O mode setup
+[    0.155022] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.174240] tsc: Marking TSC unstable due to TSCs unsynchronized
+[    0.174298] Calibrating delay loop (skipped) preset value.. 3999.96 BogoMIPS (lpj=7999923)
+[    0.174369] pid_max: default: 32768 minimum: 301
+[    0.174622] LSM: Security Framework initializing
+[    0.174728] Yama: becoming mindful.
+[    0.174968] AppArmor: AppArmor initialized
+[    0.175207] Mount-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.175276] Mountpoint-cache hash table entries: 512 (order: 0, 4096 bytes, linear)
+[    0.175411] *** VALIDATE tmpfs ***
+[    0.176238] *** VALIDATE proc ***
+[    0.176581] *** VALIDATE cgroup1 ***
+[    0.176617] *** VALIDATE cgroup2 ***
+Poking KASLR using RDTSC...
+[    0.176863] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 4
+[    0.176911] Last level dTLB entries: 4KB 512, 2MB 8, 4MB 4, 1GB 0
+[    0.176967] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+[    0.177038] Spectre V2 : Mitigation: LFENCE
+[    0.177075] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+[    0.177142] Speculative Store Bypass: Vulnerable
+[    0.177685] Freeing SMP alternatives memory: 40K
+[    0.181528] ACPI Warning: AcpiEnable failed (20190816/utxfinit-135)
+[    0.181587] ACPI: Unable to enable ACPI
+[    0.398087] smpboot: CPU0: Hygon Fake M5 x86_64 CPU (family: 0xf, model: 0x25, stepping: 0x1)
+[    0.398290] Performance Events: HYGON PMU driver.
+[    0.398290] ... version:                0
+[    0.398290] ... bit width:              48
+[    0.398290] ... generic registers:      4
+[    0.398290] ... value mask:             0000ffffffffffff
+[    0.398290] ... max period:             00007fffffffffff
+[    0.398290] ... fixed-purpose events:   0
+[    0.398290] ... event mask:             000000000000000f
+[    0.398290] rcu: Hierarchical SRCU implementation.
+[    0.398290] NMI watchdog: Enabled. Permanently consumes one hw-PMU counter.
+[    0.398290] smp: Bringing up secondary CPUs ...
+[    0.398914] x86: Booting SMP configuration:
